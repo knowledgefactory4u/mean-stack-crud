@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "lib": ["es2018"],
+        "module": "commonJS",
+        "target": "es2018",
+    },
+    "include": [
+        "index.ts",
+        "seed/*.ts",
+        "config/*.ts",
+        "helpers/*.ts",
+        "db/*.ts",
+        "services/*.ts",
+        "interface/*.ts",
+        "routes/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
